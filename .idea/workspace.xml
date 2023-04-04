@@ -4,20 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df6d20f-384a-4c8c-9bc1-fc6637d4b2d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_04Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_05Tuples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_06PairRDDs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_06PairRDDs_Fluent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/util/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="9df6d20f-384a-4c8c-9bc1-fc6637d4b2d0" name="Changes" comment="Logging hidden, versions working together up to section 06.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_07FlatMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_07zFilters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_08ImportFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_09Top10InterestingWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/utilities/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/utilities/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/exams/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/exams/students.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/subtitles/boringwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/subtitles/input-spring.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/subtitles/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/chapters-header.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/chapters.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/titles-header.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/titles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/views-1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/views-2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/views-3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/viewsHeader.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fun/madeby/_06PairRDDs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_06PairRDDs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fun/madeby/util/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/utilities/Temp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +63,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -70,16 +82,18 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="fun.madeby.util" />
+      <recent name="fun.madeby.utilities" />
       <recent name="fun.madeby" />
+      <recent name="fun.madeby.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._04Main">
+  <component name="RunManager" selected="Application._09Top10InterestingWords">
     <configuration name="_04Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fun.madeby._04Main" />
       <module name="Spark01" />
@@ -94,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_05Tuples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.madeby._05Tuples" />
+    <configuration name="_07FlatMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.madeby._07FlatMaps" />
       <module name="Spark01" />
       <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
       <extension name="coverage">
@@ -108,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_06PairRDDs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.madeby._06PairRDDs" />
+    <configuration name="_07zFilters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.madeby._07zFilters" />
       <module name="Spark01" />
       <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
       <extension name="coverage">
@@ -122,8 +136,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_06PairRDDs_Fluent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.madeby._06PairRDDs_Fluent" />
+    <configuration name="_08ImportFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.madeby._08ImportFromFile" />
+      <module name="Spark01" />
+      <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.madeby.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_09Top10InterestingWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.madeby._09Top10InterestingWords" />
       <module name="Spark01" />
       <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
       <extension name="coverage">
@@ -137,17 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application._06PairRDDs_Fluent" />
+      <item itemvalue="Application._09Top10InterestingWords" />
+      <item itemvalue="Application._08ImportFromFile" />
+      <item itemvalue="Application._07zFilters" />
+      <item itemvalue="Application._07FlatMaps" />
       <item itemvalue="Application._04Main" />
-      <item itemvalue="Application._05Tuples" />
-      <item itemvalue="Application._06PairRDDs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._09Top10InterestingWords" />
+        <item itemvalue="Application._08ImportFromFile" />
+        <item itemvalue="Application._07zFilters" />
+        <item itemvalue="Application._07FlatMaps" />
         <item itemvalue="Application._04Main" />
-        <item itemvalue="Application._06PairRDDs_Fluent" />
-        <item itemvalue="Application._06PairRDDs" />
-        <item itemvalue="Application._05Tuples" />
       </list>
     </recent_temporary>
   </component>
@@ -166,14 +196,49 @@
       <workItem from="1680508211901" duration="8851000" />
       <workItem from="1680520216891" duration="308000" />
       <workItem from="1680520554111" duration="52000" />
-      <workItem from="1680520619744" duration="3584000" />
+      <workItem from="1680520619744" duration="4654000" />
+      <workItem from="1680586741452" duration="13009000" />
+      <workItem from="1680600527571" duration="2158000" />
+      <workItem from="1680602713331" duration="70000" />
+      <workItem from="1680602811420" duration="7571000" />
     </task>
+    <task id="LOCAL-00001" summary="Logging hidden, versions working together up to section 06.">
+      <created>1680524603890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680524603890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Logging hidden, versions working together up to section 06." />
+    <option name="LAST_COMMIT_MESSAGE" value="Logging hidden, versions working together up to section 06." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

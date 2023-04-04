@@ -5,7 +5,8 @@ package fun.madeby;
 // BAG or MultiSET structure.
 // Google Guava has BAG.
 // PairRDD == extra methods:
-// 
+//
+// MAP == 1 to 1
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
