@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df6d20f-384a-4c8c-9bc1-fc6637d4b2d0" name="Changes" comment="Logging hidden, versions working together up to section 06.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_07FlatMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_07zFilters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_08ImportFromFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_09Top10InterestingWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/utilities/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/utilities/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/exams/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/exams/students.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/subtitles/boringwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/subtitles/input-spring.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/subtitles/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/chapters-header.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/chapters.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/titles-header.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/titles.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/views-1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/views-2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/views-3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewing figures/viewsHeader.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9df6d20f-384a-4c8c-9bc1-fc6637d4b2d0" name="Changes" comment="rejigged packages rdd,sql ready for SQL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fun/madeby/_06PairRDDs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/_06PairRDDs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fun/madeby/util/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/utilities/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fun/madeby/sql/_04MainSqlVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/sql/_04MainSqlVersion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +26,17 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2NtzXJZraO6RRDtUZHwMDxxJld9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -82,25 +55,44 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Notebook.Style&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/fun/madeby" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fun.madeby.sql" />
+      <recent name="fun.madeby._13BigDataExercise" />
       <recent name="fun.madeby.utilities" />
       <recent name="fun.madeby" />
       <recent name="fun.madeby.util" />
     </key>
   </component>
   <component name="RunManager" selected="Application._09Top10InterestingWords">
-    <configuration name="_04Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.madeby._04Main" />
+    <configuration name="ViewingFigures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.madeby.rdd._13big_data_exercise.ViewingFigures" />
       <module name="Spark01" />
       <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.madeby.*" />
+          <option name="PATTERN" value="fun.madeby.rdd._13big_data_exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_04MainSqlVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.madeby.sql._04MainSqlVersion" />
+      <module name="Spark01" />
+      <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.madeby.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,26 +101,12 @@
       </method>
     </configuration>
     <configuration name="_07FlatMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.madeby._07FlatMaps" />
+      <option name="MAIN_CLASS_NAME" value="fun.madeby.rdd._07FlatMaps" />
       <module name="Spark01" />
       <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.madeby.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_07zFilters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.madeby._07zFilters" />
-      <module name="Spark01" />
-      <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fun.madeby.*" />
+          <option name="PATTERN" value="fun.madeby.rdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +115,12 @@
       </method>
     </configuration>
     <configuration name="_08ImportFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.madeby._08ImportFromFile" />
+      <option name="MAIN_CLASS_NAME" value="fun.madeby.rdd._08ImportFromFile" />
       <module name="Spark01" />
       <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.madeby.*" />
+          <option name="PATTERN" value="fun.madeby.rdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +129,26 @@
       </method>
     </configuration>
     <configuration name="_09Top10InterestingWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fun.madeby._09Top10InterestingWords" />
+      <option name="MAIN_CLASS_NAME" value="fun.madeby.rdd._09Top10InterestingWords" />
       <module name="Spark01" />
       <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.madeby.*" />
+          <option name="PATTERN" value="fun.madeby.rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_10TestJoinData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fun.madeby.rdd._10TestJoinData" />
+      <module name="Spark01" />
+      <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.madeby.rdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,19 +157,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application._04MainSqlVersion" />
+      <item itemvalue="Application.ViewingFigures" />
+      <item itemvalue="Application._10TestJoinData" />
       <item itemvalue="Application._09Top10InterestingWords" />
       <item itemvalue="Application._08ImportFromFile" />
-      <item itemvalue="Application._07zFilters" />
-      <item itemvalue="Application._07FlatMaps" />
-      <item itemvalue="Application._04Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application._09Top10InterestingWords" />
+        <item itemvalue="Application._04MainSqlVersion" />
+        <item itemvalue="Application.ViewingFigures" />
+        <item itemvalue="Application._10TestJoinData" />
         <item itemvalue="Application._08ImportFromFile" />
-        <item itemvalue="Application._07zFilters" />
-        <item itemvalue="Application._07FlatMaps" />
-        <item itemvalue="Application._04Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +192,17 @@
       <workItem from="1680586741452" duration="13009000" />
       <workItem from="1680600527571" duration="2158000" />
       <workItem from="1680602713331" duration="70000" />
-      <workItem from="1680602811420" duration="7571000" />
+      <workItem from="1680602811420" duration="8592000" />
+      <workItem from="1680670173875" duration="30000" />
+      <workItem from="1680784601672" duration="4181000" />
+      <workItem from="1680850743355" duration="1728000" />
+      <workItem from="1680852482319" duration="521000" />
+      <workItem from="1680853022309" duration="17297000" />
+      <workItem from="1680893547387" duration="632000" />
+      <workItem from="1681108601009" duration="792000" />
+      <workItem from="1683099258259" duration="9389000" />
+      <workItem from="1683117061553" duration="784000" />
+      <workItem from="1683117858528" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary="Logging hidden, versions working together up to section 06.">
       <created>1680524603890</created>
@@ -209,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680524603890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated pop with scala dependencies == error solved. Covered == filter flatMap mapToPair reduceByKey sortByKey take">
+      <created>1680614565152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680614565152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rejigged packages rdd,sql ready for SQL">
+      <created>1683118766127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683118766127</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +245,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Logging hidden, versions working together up to section 06." />
-    <option name="LAST_COMMIT_MESSAGE" value="Logging hidden, versions working together up to section 06." />
+    <MESSAGE value="Updated pop with scala dependencies == error solved. Covered == filter flatMap mapToPair reduceByKey sortByKey take" />
+    <MESSAGE value="rejigged packages rdd,sql ready for SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="rejigged packages rdd,sql ready for SQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -240,5 +258,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

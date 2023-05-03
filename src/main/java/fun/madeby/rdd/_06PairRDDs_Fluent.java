@@ -1,4 +1,4 @@
-package fun.madeby;
+package fun.madeby.rdd;
 
 // single column split into two columns key:value
 // difference from MAP is that keys are being repeated, multi same key.
