@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df6d20f-384a-4c8c-9bc1-fc6637d4b2d0" name="Changes" comment="rejigged packages rdd,sql ready for SQL">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fun/madeby/sql/_04MainSqlVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fun/madeby/sql/_04MainSqlVersion.java" afterDir="false" />
-    </list>
+    <list default="true" id="9df6d20f-384a-4c8c-9bc1-fc6637d4b2d0" name="Changes" comment="rejigged packages rdd,sql ready for SQL additional workspace.xml included (saves updating each run config?)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +199,7 @@
       <workItem from="1681108601009" duration="792000" />
       <workItem from="1683099258259" duration="9389000" />
       <workItem from="1683117061553" duration="784000" />
-      <workItem from="1683117858528" duration="1365000" />
+      <workItem from="1683117858528" duration="1896000" />
     </task>
     <task id="LOCAL-00001" summary="Logging hidden, versions working together up to section 06.">
       <created>1680524603890</created>
@@ -225,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683118766127</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rejigged packages rdd,sql ready for SQL additional workspace.xml included (saves updating each run config?)">
+      <created>1683119412881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683119412881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +251,8 @@
     <MESSAGE value="Logging hidden, versions working together up to section 06." />
     <MESSAGE value="Updated pop with scala dependencies == error solved. Covered == filter flatMap mapToPair reduceByKey sortByKey take" />
     <MESSAGE value="rejigged packages rdd,sql ready for SQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="rejigged packages rdd,sql ready for SQL" />
+    <MESSAGE value="rejigged packages rdd,sql ready for SQL additional workspace.xml included (saves updating each run config?)" />
+    <option name="LAST_COMMIT_MESSAGE" value="rejigged packages rdd,sql ready for SQL additional workspace.xml included (saves updating each run config?)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
