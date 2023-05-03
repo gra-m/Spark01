@@ -1,4 +1,4 @@
-package fun.madeby;
+package fun.madeby.rdd;
 
 
 import fun.madeby.utilities.Util;

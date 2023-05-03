@@ -1,6 +1,4 @@
-package fun.madeby;
-
-// FLATMAP 1 ZERO MANY TO 1 ZERO MANY
+package fun.madeby.rdd;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -33,9 +31,9 @@ public static void main(String[] args) {
 
 //normal map syntax fails:
             //sentences.flatMap(value -> value.split(" "));
-                sentences.flatMap(value -> Arrays.asList(value.split(
-                " ")).iterator())
-                .collect().forEach(System.out::println);
+            sentences.flatMap(value -> Arrays.asList(value.split(
+                         " ")).iterator())
+                     .collect().forEach(System.out::println);
 
       }
 }
